@@ -1,0 +1,91 @@
+.coin_table{
+    padding-bottom: 10rem;
+}
+.hero{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin-top: 8rem;
+}
+.hero_container{
+    background-image: url('../../assets//btc.jpg');
+    background-size: cover;
+    background-position: center;
+    /* position: absolute; */
+    height: 100vh;
+    width: 100%;
+}
+.hero h1{
+    font-size: 56px;
+}
+.hero p{
+    width: 75%;
+    line-height: 1.5;
+    color: #e3e3e3;
+}
+.hero form{
+    padding: 8px;
+    width: 60%;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 10px;
+}
+.hero input{
+    flex: 1;
+    font-size: 16px;
+    outline: none;
+    padding-left: 10px;
+    border: none;
+}
+.hero button{
+    border: none;
+    background-color: #4727ff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+.crypto_table{
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    margin-top: 6rem;
+}
+.table_layout{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1.5fr;
+    padding: 15px 20px;
+    align-items: center;
+    border-bottom: 1px solid #3c3c3c;
+}
+.market-cap{
+    text-align: right;
+}
+.table_layout div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.table_layout .symbol{
+    text-transform: uppercase;
+}
+.table_layout div img{
+    width: 35px;
+}
+.table_layout .green{
+    color: #00d515;
+    text-align: center;
+}
+.table_layout .red{
+    color: #ff4646;
+    text-align: center;
+}
